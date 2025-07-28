@@ -23,7 +23,7 @@ char pass[] = "svetusya";
 #define WIDTH       16
 #define HEIGHT      16
 #define SPACE       1
-#define BRIGHTNESS  10
+#define BRIGHTNESS  200
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
 #define MAX_CURRENT_MILLIAMPS 2000  // Limit to 2 Amps
@@ -182,7 +182,7 @@ bool fullTextFlag = false;   // Global flag for text completion
 bool showBigHeart = false;  // Flag to track which heart to show
 uint8_t heartCounter = 0;   // Counter for heart animation timing
 enum ImageType { FILL, SNAKE, RAINBOW, IMAGE_GIFT, TEXT, IMAGE, ANIMATION, HEART_ANIMATION };
-enum SelectedImage { Item1, Item2 };
+enum SelectedImage { Lion, Dinosaur, Coala };
 ImageType imageType = FILL;
 
 // Blynk Virtual Pin V0 - Button for solid color
@@ -276,11 +276,14 @@ BLYNK_WRITE(V10)
   fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
   int img = param.asInt();
-  if (img == SelectedImage::Item1) {
-    display_image_serpentine_180(orient_pixels);
+  if (img == SelectedImage::Lion) {
+    display_image_serpentine_180(lion_pixels);
     FastLED.show();
-  } else if (img == SelectedImage::Item2) {
-    display_image_serpentine_180(gift_01a_pixels);
+  } else if (img == SelectedImage::Coala) {
+    display_image_serpentine_180(mouse1_pixels);
+    FastLED.show();
+  } else if (img == SelectedImage::Dinosaur) {
+    display_image_serpentine_180(dinosaur_pixels);
     FastLED.show();
   }
 }
