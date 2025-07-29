@@ -4,6 +4,22 @@ A wireless LED matrix controller for ESP8266 that creates a "Smart Bag" with cus
 
 > **📚 Educational Project**: This is a school student project developed as part of learning embedded systems programming and IoT development with ESP8266 microcontrollers.
 
+## 📸 Project Demo
+
+<div align="center">
+
+### Mobile Web Interface
+<img src="https://github.com/sgetmanskaya/smartBagProject/assets/your-image-1.jpg" alt="Smart Bag Web Interface on Mobile" width="400">
+
+*The responsive web interface running on a mobile device, showing the control panel with color picker, special effects buttons, and text input.*
+
+### LED Matrix Display
+<img src="https://github.com/sgetmanskaya/smartBagProject/assets/your-image-2.jpg" alt="Smart Bag LED Matrix Rainbow Effect" width="400">
+
+*The 16x16 WS2812B LED matrix displaying a beautiful rainbow effect, integrated into a black bag.*
+
+</div>
+
 ## 🎯 Features
 
 - **Web-based Control Interface** - Modern, responsive web UI
