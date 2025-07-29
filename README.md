@@ -9,12 +9,12 @@ A wireless LED matrix controller for ESP8266 that creates a "Smart Bag" with cus
 <div align="center">
 
 ### Mobile Web Interface
-<img src="images/IMG_4194.jpg" alt="Smart Bag Web Interface on Mobile" width="400">
+<img src="images/IMG_4194.jpeg" alt="Smart Bag Web Interface on Mobile" width="400">
 
 *The responsive web interface running on a mobile device, showing the control panel with color picker, special effects buttons, and text input.*
 
 ### LED Matrix Display
-<img src="images/IMG_4191.jpg" alt="Smart Bag LED Matrix Rainbow Effect" width="400">
+<img src="images/IMG_4191.jpeg" alt="Smart Bag LED Matrix Rainbow Effect" width="400">
 
 *The 16x16 WS2812B LED matrix displaying a beautiful rainbow effect, integrated into a black bag.*
 
